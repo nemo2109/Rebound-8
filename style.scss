@@ -10,6 +10,8 @@
      .caja{
         display: flex;
         justify-content: center;
+        position: relative;
+        top: 400px;
         
         &__imagen{
             width: 300px;
@@ -30,12 +32,15 @@
             animation-duration: 4s;
             animation-iteration-count: infinite;
             animation-direction: alternate;
-            transform: rotateX(360deg);
-           
+            transform: rotateY(180deg);
+            
         }
+           
+        
         &__imagen1:hover{
            width: 400px;
            height: 400px;
+
           
            
            
@@ -47,7 +52,8 @@
             100% {  top:0px;}
             
         }
+    }
 
-        }
+        
      
 

@@ -9,6 +9,8 @@ body {
 .caja {
   display: flex;
   justify-content: center;
+  position: relative;
+  top: 400px;
 }
 .caja__imagen {
   width: 300px;
@@ -26,7 +28,7 @@ body {
   animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
-  transform: rotateX(360deg);
+  transform: rotateY(180deg);
 }
 .caja__imagen1:hover {
   width: 400px;
