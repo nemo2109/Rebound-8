@@ -1,6 +1,39 @@
+body {
+  background-image: url("../Rebound-8/1361.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 .caja {
   display: flex;
   justify-content: center;
+}
+.caja__imagen {
+  transform: translate(30px, 250px);
+}
+.caja__imagen1 {
+  transform: translate(30px, 250px);
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+@keyframes example {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: 200px;
+  }
+  75% {
+    top: 200px;
+  }
+  100% {
+    top: 0px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
