@@ -1,5 +1,5 @@
     body{
-        background-image: url('../Rebound-8/1361.jpg');
+        background-image: url('./assets/img/1361.jpg');
         background-repeat: no-repeat;
         background-position: center;
         background-attachment: fixed;
@@ -12,16 +12,33 @@
         justify-content: center;
         
         &__imagen{
-            transform: translate(30px, 250px);
+            width: 300px;
+            height: 300px;
+            transition: 1s;
+        }
+
+        &__imagen:hover{
+            transform: translate(20px, 400px);
+            transform: rotateX(360deg);
+           
         }
        
         &__imagen1{
-            transform: translate(30px, 250px);
+            transform: translate(20px, 400px);
             position: relative;
             animation-name: example;
             animation-duration: 4s;
             animation-iteration-count: infinite;
-            animation-direction: alternate-reverse;
+            animation-direction: alternate;
+            transform: rotateX(360deg);
+           
+        }
+        &__imagen1:hover{
+           width: 400px;
+           height: 400px;
+          
+           
+           
         }
         @keyframes example {
             0%   {  top:0px;}
